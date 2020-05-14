@@ -117,8 +117,13 @@
               "devServerTarget": "angular-firebase-login:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-firebase-login"
 }

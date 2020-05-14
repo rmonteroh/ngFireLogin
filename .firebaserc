@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my-signin-project-e2456": {
+      "hosting": {
+        "angular-firebase-login": [
+          "my-signin-project-e2456"
+        ]
+      }
+    }
+  }
+}
