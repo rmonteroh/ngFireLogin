@@ -9,6 +9,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 // used for storage images, files, ... in storage firebase
 import { AngularFireStorageModule, StorageBucket } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment';
 
@@ -22,6 +23,7 @@ import { environment } from '../environments/environment';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireStorageModule,
+    AngularFireAuthModule,
   ],
   providers: [
     { provide: StorageBucket, useValue: 'gs://my-signin-project-e2456.appspot.com' }
